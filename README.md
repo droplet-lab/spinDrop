@@ -3,6 +3,8 @@
 
 Droplet microfluidic methods have massively increased the throughput of single-cell RNA sequencing campaigns. The benefit of scale-up is, however, accompanied by increased background noise when processing challenging samples as well as lower overall RNA capture efficiency. These drawbacks stem from the lack of strategies to enrich for high-quality material at the moment of cell encapsulation and the lack of implementable multi-step enzymatic processes that increase RNA capture. Here we alleviate both bottlenecks using fluorescence-activated droplet sorting to enrich for droplets that contain single viable cells, intact nuclei or fixed cells and use reagent addition to droplets by picoinjection to perform multi-step lysis and reverse transcription. Our methodology increases gene detection rates fivefold, while reducing background noise by up to half, depending on sample quality. We harness these unique properties to deliver a high-quality molecular atlas of mouse brain development using highly damaged input material. Our method is broadly applicable to other droplet-based workflows to deliver sensitive and accurate single-cell profiling at a reduced cost.
 
+![alt text](https://github.com/droplet-lab/spinDrop/blob/main/illustration.png)
+
 ## scRNA-seq pre-processing
 In this repository, scripts to pre-process the R1, R2, R3 and R4 are shown. Briefly, the files are pre-processed by zUMIs (Parekh _et al._, Gigascience (2018)). Next, the concatenated intron and exon matrices are exctracted (inex) and annotations are added using bioMart (Durinck _et al._, Nature Protocols (2009)).
 
